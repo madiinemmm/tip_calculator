@@ -1,0 +1,157 @@
+  @import url(https://fonts.googleapis.com/css2?family=Space+Mono:wght@100;200;300;400;500;600;700&display=swap);
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+input[type="radio"]:checked ~ span {
+  background-color: #26C2AE;
+}
+
+.bill_input::placeholder {
+  font-size: 18px;
+}
+
+input {
+  font-family: inherit;
+  appearance: none;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 14px;
+}
+
+#custom {
+  width: 100px;
+  border: 0;
+}
+
+label {
+  display: block;
+}
+
+.label-wrapper span {
+  width: 100px;
+  height: 40px;
+  background-color: #004758;
+  color: #ffffff;
+  border-radius: ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #b8e4eb;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  width: 620px;
+  height: 280px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+}
+.input_bill {
+  color: #7d9b9f;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.bill_input {
+  padding: 4px;
+  border: none;
+  background-color: #f1f9f9;
+  height: 25px;
+  width: 90%;
+  padding-left: 20px;
+}
+.bill_input::placeholder {
+  color: #9ebbbd;
+}
+
+
+
+.select-tip {
+  display: flex;
+}
+
+.custom-input {
+  background-color: #F3F9FA;
+  width: 100px;
+  height: 40px;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  outline: none;
+}
+
+#number-of-person {
+  border: none;
+  outline: none;
+  width: 330px;
+  margin-top: 10px;
+  height: 40px;
+  background-color: #F3F9FA;
+}
+
+.number-people {
+  font-weight: 700;
+  font-size: 16px;
+  color: #5E7A7D;
+}
+
+.total {
+  background-color: #00474B;
+  border-radius: 15px;
+  width: 100%;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+.tip-amount {
+  font-weight: 700;
+  font-size: 12px;
+  color: #ffffff;
+ 
+}
+
+.tip-amount span {
+  color: #7F9D9F;
+}
+
+#total-person {
+  color: #26C2AE;
+  margin-left: 70px;
+    font-size: 28px;
+}
+
+#amount-person {
+  color: #26C2AE;
+  margin-left: 70px;
+    font-size: 28px;
+}

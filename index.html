@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div>
+        <label class="input_bill" for="">Bill</label>
+        <input type="number" id="bill" placeholder="$" class="bill_input" />
+        <div>
+          <div class="wrapper">
+            <label class="label-wrapper">
+              <input type="radio" value="5" name="tip" class="to" />
+              <span>5%</span>
+            </label>
+            <label class="label-wrapper">
+              <input
+                type="radio"
+                value="10"
+                name="tip"
+                class="tip-persentage" />
+              <span>10%</span>
+            </label>
+            <label class="label-wrapper">
+              <input
+                type="radio"
+                value="15"
+                name="tip"
+                class="tip-persentage" />
+              <span>15%</span>
+            </label>
+            <label class="label-wrapper">
+              <input
+                type="radio"
+                value="25"
+                name="tip"
+                class="tip-persentage" />
+              <span>25%</span>
+            </label>
+            <label class="label-wrapper">
+              <input
+                type="radio"
+                value="50"
+                name="tip"
+                class="tip-persentage" />
+              <span>50%</span>
+            </label>
+            <label class="label-wrapper">
+              <input
+              class="custom-input"
+                type="number"
+                value=""
+                name="tip"
+                placeholder="Custom"
+                id="custom" />
+            </label>
+          </div>
+        </div>
+        <label class="number-people">Number of People</label>
+        <input
+          type="number"
+
+          id="number-of-person"  />
+      </div>
+
+      <div class="total">
+        <h2 class="tip-amount">Tip amount <br><span>/person</span> <span id="amount-person">0</span></h2>
+        <h2 class="tip-amount">Total <br><span>/person </span><span id="total-person">0</span></h2>
+      </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
